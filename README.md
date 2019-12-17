@@ -35,7 +35,7 @@ Optionally, other sequences (templates) may be modelled as well
 in total) can be listed in the file. A target is modelled using all 
 the template structures and alignments listed in the file.
 
- The names targetname, templ1name, templ2name, ... have to 
+ The names `targetname`, `templ1name`, `templ2name`, ... have to 
 correspond to the filenames (without extension) of PDB structures.
 Required PDB files with extension `.ent` or `.pdb` added are looked 
 up in the directory specified by the option `--pdb`.
@@ -59,6 +59,8 @@ written in this file:
 `<TMScore1>` is a score obtained with respect to the whole 
 structure, and `<TMScore2>` is a score obtained along the alignment 
 extent.
+
+For available options, please type `modplus.pl -h`
 
 Contact: <mindaugas.margelevicius@bti.vu.lt>
 
