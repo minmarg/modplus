@@ -100,10 +100,11 @@ more template sequences (two or more sequences in total) can be
 listed in the file. A target is modelled using all the template 
 structures and alignments listed in the file.
 
- The names targetname, templ1name, templ2name,... have to 
-correspond to the filenames (without extension) of PDB structures.
-Required PDB files with extension .ent or .pdb added are looked up 
-in the directory specified by the option --pdb.
+ The names templ1name, templ2name,... (and targetname if options 
+--all and/or --tm are specified) have to correspond to the 
+filenames (without extension) of PDB structures. Required PDB files 
+with extension .ent or .pdb added are looked up in the directory 
+specified by the option --pdb.
 
  Template chains are extracted from pdb files. There may be several 
 chain identifiers given by `chains' (e.g., SCOP domains compiled: 
